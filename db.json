@@ -13,13 +13,6 @@
       "attention": false,
       "tech": "Sara Wilson",
       "date": "2020-06-25T13:41:04.969Z"
-    },
-    {
-      "message": "1122 wireless down",
-      "attention": true,
-      "tech": "Sara Wilson",
-      "date": "2020-06-23T08:29:44.426Z",
-      "id": 3
     }
   ],
   "techs": [
@@ -27,11 +20,6 @@
       "id": 1,
       "firstName": "John",
       "lastName": "Doe"
-    },
-    {
-      "id": 2,
-      "firstName": "Sam",
-      "lastName": "Smith"
     },
     {
       "id": 3,

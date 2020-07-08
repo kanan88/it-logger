@@ -1,4 +1,5 @@
 import React, {useEffect, useState} from 'react';
+import TechSelectOptions from "../techs/TechSelectOptions";
 import {connect} from 'react-redux';
 import PropTypes from 'prop-types';
 import M from 'materialize-css/dist/js/materialize.min';
@@ -64,9 +65,7 @@ const EditLogModal = ({current, updateLog}) => {
                                 onChange={e => setTech(e.target.value)}
                         >
                             <option value="" disabled>Select Technician</option>
-                            <option value="John Doe">John Doe</option>
-                            <option value="Sam Smith">Sam Smith</option>
-                            <option value="Sara Wilson">Sara Wilson</option>
+                            <TechSelectOptions />
                         </select>
                     </div>
                 </div>
@@ -88,7 +87,7 @@ const EditLogModal = ({current, updateLog}) => {
                 </div>
             </div>
             <div className="modal-footer">
-                <a href="#"
+                <a href="#!"
                    onClick={onSubmit}
                    className="modal-close waves-effect blue waves-green btn"
                 >
